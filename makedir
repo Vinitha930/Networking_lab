@@ -1,0 +1,5 @@
+echo "enter directory name"
+read d
+mkdir $d
+echo "after insert new to current"
+ls
