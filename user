@@ -1,0 +1,23 @@
+echo "logged users"
+who
+echo
+echo "loggin names"
+users
+echo
+echo "current shell"
+echo $SHELL
+echo
+echo "home director"
+echo $HOME
+echo
+echo "operating system"
+uname -o
+echo $OSTYPE
+echo
+echo "path settings"
+echo
+echo "current working directory"
+pwd
+echo
+echo "no of logged users"
+users/wc -w
