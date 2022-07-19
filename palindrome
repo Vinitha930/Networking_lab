@@ -1,0 +1,9 @@
+echo "enter a string"
+read s
+rvs=`echo $s | rev`
+if [ $s = $rvs ]
+then
+echo " palindrome"
+else
+echo "not palindrome"
+fi
