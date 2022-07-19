@@ -1,0 +1,8 @@
+list="some string with substring"
+source="with"
+if echo "$list"|grep -q "$source";
+then
+ echo "matched"
+else
+echo"not"
+fi
