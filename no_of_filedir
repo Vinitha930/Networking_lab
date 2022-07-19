@@ -1,0 +1,2 @@
+echo "no of files is $(find "$@" -type f |wc -l)"
+echo "no of directories $(find "$@" -type d |wc -l)"
